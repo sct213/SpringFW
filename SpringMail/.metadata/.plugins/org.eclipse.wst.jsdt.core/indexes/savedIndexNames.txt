@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/dead_line/DEV/SpringMail/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1575350173.index
+1054587391.index
+479526118.index
+41050612.index
+2059942558.index
+385727431.index

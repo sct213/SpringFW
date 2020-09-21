@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+/Users/dead_line/DEV/SpringMail/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/486689787.index
+/SpringPRJ/src
+/Users/dead_line/DEV/SpringMail/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2059942558.index
+/SpringPRJ/src
