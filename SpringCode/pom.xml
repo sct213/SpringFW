@@ -30,7 +30,7 @@
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artfactId>commons-codec</artfactId>
-			<version>1.10.</version>
+			<version>1.10.1</version>
 		</dependency>
 		<!-- logging -->
 		<dependency>

@@ -1,7 +1,1 @@
 INDEX VERSION 1.4+/Users/dead_line/DEV/SpringW/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-2327550126.index
-3533950485.index
-1910416086.index
-899239429.index
-3239838096.index
-1594963969.index
