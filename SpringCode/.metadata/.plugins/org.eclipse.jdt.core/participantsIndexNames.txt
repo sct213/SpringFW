@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-/Users/dead_line/2020110019_양원석(암호구현)/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1338564766.index
-/SpringForOracle/src
