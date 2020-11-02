@@ -72,12 +72,13 @@
           <tags>persp.viewSC:org.eclipse.pde.runtime.LogView</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
           <tags>persp.viewSC:org.eclipse.tm.terminal.view.ui.TerminalsView</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_FwPI0AbqEeub5-mbY60gVQ" selectedElement="_FwPI3wbqEeub5-mbY60gVQ" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_FwPI0QbqEeub5-mbY60gVQ" containerData="2000" selectedElement="_FwPI0gbqEeub5-mbY60gVQ">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_FwPI0AbqEeub5-mbY60gVQ" selectedElement="_FwPI0QbqEeub5-mbY60gVQ" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_FwPI0QbqEeub5-mbY60gVQ" containerData="1802" selectedElement="_FwPI0gbqEeub5-mbY60gVQ">
               <children xsi:type="basic:PartSashContainer" xmi:id="_FwPI0gbqEeub5-mbY60gVQ" containerData="6000" selectedElement="_FwPI0wbqEeub5-mbY60gVQ">
-                <children xsi:type="basic:PartSashContainer" xmi:id="_FwPI0wbqEeub5-mbY60gVQ" containerData="6600" selectedElement="_FwPI2QbqEeub5-mbY60gVQ">
+                <children xsi:type="basic:PartSashContainer" xmi:id="_FwPI0wbqEeub5-mbY60gVQ" containerData="6600" selectedElement="_FwPI1AbqEeub5-mbY60gVQ">
                   <children xsi:type="basic:PartStack" xmi:id="_FwPI1AbqEeub5-mbY60gVQ" elementId="left" containerData="7655" selectedElement="_FwPI1QbqEeub5-mbY60gVQ">
                     <tags>org.eclipse.e4.primaryNavigationStack</tags>
+                    <tags>active</tags>
                     <children xsi:type="advanced:Placeholder" xmi:id="_FwPI1QbqEeub5-mbY60gVQ" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_Vx3LTODuEeqGp8x_GLbbig" closeable="true">
                       <tags>View</tags>
                       <tags>categoryTag:Java</tags>
@@ -117,7 +118,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_FwPI3wbqEeub5-mbY60gVQ" containerData="8000" selectedElement="_FwPI4AbqEeub5-mbY60gVQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_FwPI3wbqEeub5-mbY60gVQ" containerData="8198" selectedElement="_FwPI4AbqEeub5-mbY60gVQ">
               <children xsi:type="basic:PartSashContainer" xmi:id="_FwPI4AbqEeub5-mbY60gVQ" containerData="7500" selectedElement="_FwPI4QbqEeub5-mbY60gVQ" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_FwPI4QbqEeub5-mbY60gVQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_Vx3LM-DuEeqGp8x_GLbbig"/>
                 <children xsi:type="basic:PartStack" xmi:id="_FwPI4gbqEeub5-mbY60gVQ" elementId="right" toBeRendered="false" containerData="2500">
@@ -223,7 +224,6 @@
       <children xsi:type="basic:PartStack" xmi:id="_Vx3LNODuEeqGp8x_GLbbig" elementId="PartStack@687a0e40" selectedElement="_jp4KIAtgEeuzd97c8cq0mQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_IUdRIAtgEeuzd97c8cq0mQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Mapper.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Mapper.java&quot; partName=&quot;Mapper.java&quot; title=&quot;Mapper.java&quot; tooltip=&quot;SpringForOracle/src/config/Mapper.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SpringForOracle/src/config/Mapper.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -247,8 +247,6 @@
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_lyxwUAtgEeuzd97c8cq0mQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="EncryptUtil.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EncryptUtil.java&quot; partName=&quot;EncryptUtil.java&quot; title=&quot;EncryptUtil.java&quot; tooltip=&quot;SpringForOracle/src/poly/util/EncryptUtil.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SpringForOracle/src/poly/util/EncryptUtil.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;587&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
@@ -312,6 +310,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view group_libraries=&quot;1&quot; layout=&quot;1&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1596899472906&quot;>&#xA;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;>&#xA;&lt;xmlDefinedFilters>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.DeprecatedMembersFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;/xmlDefinedFilters>&#xA;&lt;/customFilters>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_Vx3LTeDuEeqGp8x_GLbbig" elementId="org.eclipse.jdt.ui.PackageExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -475,7 +475,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Vx3Lw-DuEeqGp8x_GLbbig" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_x3DeYBGeEeuNjrtu-U_bIA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Vx6Pq-DuEeqGp8x_GLbbig"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_q9h8IByyEeuBu6tUwZ2v0Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Vx6Pq-DuEeqGp8x_GLbbig"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Vx3L0ODuEeqGp8x_GLbbig" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -536,7 +536,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Vx3MFeDuEeqGp8x_GLbbig" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_x3F6oBGeEeuNjrtu-U_bIA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Vx6PW-DuEeqGp8x_GLbbig"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_q9jxUhyyEeuBu6tUwZ2v0Q" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_Vx6PW-DuEeqGp8x_GLbbig"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Vx3MIeDuEeqGp8x_GLbbig" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -875,6 +875,8 @@
     <bindings xmi:id="_Vx3M5ODuEeqGp8x_GLbbig" keySequence="ALT+SHIFT+D B" command="_Vx6QC-DuEeqGp8x_GLbbig"/>
     <bindings xmi:id="_AaFlUAavEeu7bJcO8nxNiw" keySequence="ALT+CTRL+ARROW_LEFT" command="_Vx6PuuDuEeqGp8x_GLbbig"/>
     <bindings xmi:id="_AaFlUQavEeu7bJcO8nxNiw" keySequence="ALT+CTRL+ARROW_RIGHT" command="_AZtx6AavEeu7bJcO8nxNiw"/>
+    <bindings xmi:id="_qiFWQByyEeuBu6tUwZ2v0Q" keySequence="ALT+SHIFT+X D" command="_qhjx0xyyEeuBu6tUwZ2v0Q"/>
+    <bindings xmi:id="_qiJnsByyEeuBu6tUwZ2v0Q" keySequence="ALT+SHIFT+D D" command="_qhkY5ByyEeuBu6tUwZ2v0Q"/>
   </bindingTables>
   <bindingTables xmi:id="_Vx3M5eDuEeqGp8x_GLbbig" elementId="org.eclipse.wst.jsdt.ui.javascriptViewScope" bindingContext="_Vx3zEeDuEeqGp8x_GLbbig">
     <bindings xmi:id="_Vx3M6uDuEeqGp8x_GLbbig" keySequence="ALT+CTRL+H" command="_Vx6PceDuEeqGp8x_GLbbig"/>
@@ -1211,9 +1213,9 @@
   </bindingTables>
   <bindingTables xmi:id="_Vx3yr-DuEeqGp8x_GLbbig" elementId="org.eclipse.wst.jsdt.chromium.debug.ui.editors.JsEditor.context" bindingContext="_Vx3zR-DuEeqGp8x_GLbbig"/>
   <bindingTables xmi:id="_Vx3yseDuEeqGp8x_GLbbig" elementId="org.dadacoalition.yedit.yeditScope" bindingContext="_Vx3zK-DuEeqGp8x_GLbbig">
-    <bindings xmi:id="_Vx3ysuDuEeqGp8x_GLbbig" keySequence="COMMAND+/" command="_Vx5n_uDuEeqGp8x_GLbbig"/>
-    <bindings xmi:id="_Vx3ys-DuEeqGp8x_GLbbig" keySequence="COMMAND+SHIFT+C" command="_Vx5n_uDuEeqGp8x_GLbbig"/>
-    <bindings xmi:id="_Vx3ytODuEeqGp8x_GLbbig" keySequence="COMMAND+SHIFT+F" command="_Vx6P5-DuEeqGp8x_GLbbig"/>
+    <bindings xmi:id="_qiC6AByyEeuBu6tUwZ2v0Q" keySequence="CTRL+/" command="_Vx5n_uDuEeqGp8x_GLbbig"/>
+    <bindings xmi:id="_qiC6ARyyEeuBu6tUwZ2v0Q" keySequence="CTRL+SHIFT+C" command="_Vx5n_uDuEeqGp8x_GLbbig"/>
+    <bindings xmi:id="_qiC6AhyyEeuBu6tUwZ2v0Q" keySequence="CTRL+SHIFT+F" command="_Vx6P5-DuEeqGp8x_GLbbig"/>
   </bindingTables>
   <bindingTables xmi:id="_Vx3yteDuEeqGp8x_GLbbig" elementId="org.eclipse.pde.ui.pdeEditorContext" bindingContext="_Vx3zKODuEeqGp8x_GLbbig">
     <bindings xmi:id="_Vx3ytuDuEeqGp8x_GLbbig" keySequence="COMMAND+SHIFT+F" command="_Vx5oSODuEeqGp8x_GLbbig"/>
@@ -1241,7 +1243,7 @@
     <bindings xmi:id="_Vx3yx-DuEeqGp8x_GLbbig" keySequence="ALT+CR" command="_Vx6OfeDuEeqGp8x_GLbbig"/>
   </bindingTables>
   <bindingTables xmi:id="_Vx3yyeDuEeqGp8x_GLbbig" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_Vx3zRuDuEeqGp8x_GLbbig">
-    <bindings xmi:id="_xf-bIRGeEeuNjrtu-U_bIA" keySequence="M1+W" command="_Vx6QZeDuEeqGp8x_GLbbig">
+    <bindings xmi:id="_qisaQByyEeuBu6tUwZ2v0Q" keySequence="M1+W" command="_Vx6QZeDuEeqGp8x_GLbbig">
       <tags>deleted</tags>
     </bindings>
   </bindingTables>
@@ -3502,6 +3504,27 @@
   <commands xmi:id="_Ao_kAAavEeu7bJcO8nxNiw" elementId="AUTOGEN:::org.eclipse.linuxtools.docker.launchActionSet/org.eclipse.debug.internal.ui.actions.RunWithConfigurationAction" commandName="Run As" category="_Vx61WODuEeqGp8x_GLbbig"/>
   <commands xmi:id="_ApAyIAavEeu7bJcO8nxNiw" elementId="AUTOGEN:::org.eclipse.linuxtools.docker.launchActionSet/org.eclipse.debug.internal.ui.actions.RunHistoryMenuAction" commandName="Run History" category="_Vx61WODuEeqGp8x_GLbbig"/>
   <commands xmi:id="_ApAyIQavEeu7bJcO8nxNiw" elementId="AUTOGEN:::org.eclipse.linuxtools.docker.launchActionSet/org.eclipse.debug.internal.ui.actions.RunDropDownAction" commandName="Run" category="_Vx61WODuEeqGp8x_GLbbig"/>
+  <commands xmi:id="_qhjx0ByyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.login.commands.loginCommand" commandName="Google Login Command" category="_qhjKwxyyEeuBu6tUwZ2v0Q"/>
+  <commands xmi:id="_qhjx0RyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.dataflow.ui.dataflowVersion.update" commandName="Update Dataflow Version" category="_qhjKwhyyEeuBu6tUwZ2v0Q"/>
+  <commands xmi:id="_qhjx0hyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.sdk.ui.updateManagedCloudSdk" commandName="Update Managed Google Cloud SDK" category="_qhjKwxyyEeuBu6tUwZ2v0Q"/>
+  <commands xmi:id="_qhjx0xyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.dataflow.ui.launcher.launchPipelineShortcut.run" commandName="Dataflow Pipeline" category="_Vx6R9-DuEeqGp8x_GLbbig"/>
+  <commands xmi:id="_qhjx1ByyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.dataflow.ui.dataflowNature.remove" commandName="Disable Dataflow Nature" category="_qhjKwhyyEeuBu6tUwZ2v0Q"/>
+  <commands xmi:id="_qhjx1RyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.appengine.standard.deploy" commandName="Deploy to App Engine Standard" description="Uploads the project to the Google App Engine standard environment." category="_Vx61WODuEeqGp8x_GLbbig"/>
+  <commands xmi:id="_qhjx1hyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.ui.util.showPopup" commandName="Show associated drop-down menu" category="_Vx6R7uDuEeqGp8x_GLbbig"/>
+  <commands xmi:id="_qhjx1xyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.bugreport.bugReportCommand" commandName="Submit Issue or Feedback..." category="_qhjKwRyyEeuBu6tUwZ2v0Q"/>
+  <commands xmi:id="_qhjx2ByyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.appengine.flex.deploy.existing.war.jar" commandName="Deploy WAR/JAR File to App Engine Flexible" description="Uploads pre-existing WAR or JAR file to the Google App Engine flexible environment." category="_Vx61WODuEeqGp8x_GLbbig"/>
+  <commands xmi:id="_qhjx2RyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.dataflow.ui.dataflowVersion.track" commandName="Track Latest Dataflow Version" category="_qhjKwhyyEeuBu6tUwZ2v0Q"/>
+  <commands xmi:id="_qhjx2hyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.ui.status.showGcpStatus" commandName="Show Google Cloud Platform Status" description="Show the current status of Google Cloud Platform" category="_qhjKwxyyEeuBu6tUwZ2v0Q"/>
+  <commands xmi:id="_qhjx2xyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.appengine.flex.deploy" commandName="Deploy to App Engine Flexible" description="Uploads the project to the Google App Engine flexible environment." category="_Vx61WODuEeqGp8x_GLbbig"/>
+  <commands xmi:id="_qhjx3ByyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.appengine.standard.java8.convert" commandName="Reconfigure for App Engine Java 8 runtime" category="_qhjKwxyyEeuBu6tUwZ2v0Q"/>
+  <commands xmi:id="_qhjx3RyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.appengine.compat.cte13.updateProject" commandName="Update Project for Cloud Tools for Eclipse" category="_Vx61WODuEeqGp8x_GLbbig"/>
+  <commands xmi:id="_qhkY4ByyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.appengine.localserver.launch" commandName="Launch on App Engine" description="Launch on App Engine development server" category="_Vx61WODuEeqGp8x_GLbbig">
+    <parameters xmi:id="_qhkY4RyyEeuBu6tUwZ2v0Q" elementId="launchMode" name="Launch mode"/>
+  </commands>
+  <commands xmi:id="_qhkY4hyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.appengine.facets.convertToStandard" commandName="Convert to App Engine Standard Project" description="Converts an Eclipse project into a Google App Engine standard environment project." category="_Vx61WODuEeqGp8x_GLbbig"/>
+  <commands xmi:id="_qhkY4xyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.dataflow.ui.dataflowVersion.pin" commandName="Pin Dataflow Version" category="_qhjKwhyyEeuBu6tUwZ2v0Q"/>
+  <commands xmi:id="_qhkY5ByyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.dataflow.ui.launcher.launchPipelineShortcut.debug" commandName="Dataflow Pipeline" category="_Vx6R9-DuEeqGp8x_GLbbig"/>
+  <commands xmi:id="_qhkY5RyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.dataflow.ui.dataflowNature.add" commandName="Enable Dataflow Nature" category="_qhjKwhyyEeuBu6tUwZ2v0Q"/>
   <addons xmi:id="_Vx6RzuDuEeqGp8x_GLbbig" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_Vx6Rz-DuEeqGp8x_GLbbig" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_Vx6R0ODuEeqGp8x_GLbbig" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -3581,4 +3604,7 @@
   <categories xmi:id="_Vx61buDuEeqGp8x_GLbbig" elementId="org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x" name="ASA 9.x table schema editor"/>
   <categories xmi:id="_Vx61b-DuEeqGp8x_GLbbig" elementId="org.eclipse.emf.codegen.ecore.ui.Commands" name="EMF Code Generation" description="Commands for the EMF code generation tools"/>
   <categories xmi:id="_Vx61cODuEeqGp8x_GLbbig" elementId="org.eclipse.datatools.sqltools.sqleditor.category" name="Database Tools" description="Database Development tools"/>
+  <categories xmi:id="_qhjKwRyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.bugreport.commands.category" name="Google User Bug Report Category"/>
+  <categories xmi:id="_qhjKwhyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.dataflow.ui.menuCommands" name="Dataflow"/>
+  <categories xmi:id="_qhjKwxyyEeuBu6tUwZ2v0Q" elementId="com.google.cloud.tools.eclipse.ui.commands" name="Google Cloud Platform"/>
 </application:Application>
