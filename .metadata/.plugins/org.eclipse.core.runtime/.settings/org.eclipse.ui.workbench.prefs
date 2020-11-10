@@ -14,6 +14,7 @@ org.eclipse.jdt.internal.ui.compare.PropertiesFileMergeViewer=1|Menlo|14.0|0|COC
 org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|Menlo|14.0|0|COCOA|1|;
 org.eclipse.jdt.ui.editors.textfont=1|Menlo|14.0|0|COCOA|1|;
 org.eclipse.jface.textfont=1|Menlo|14.0|0|COCOA|1|;
+org.eclipse.mylyn.wikitext.ui.presentation.textFont=1|Menlo|14.0|0|COCOA|1|;
 org.eclipse.pde.internal.ui.compare.ManifestContentMergeViewer=1|Menlo|14.0|0|COCOA|1|;
 org.eclipse.pde.internal.ui.compare.PluginContentMergeViewer=1|Menlo|14.0|0|COCOA|1|;
 org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands/>

@@ -51,6 +51,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/dead_line/DEV/SpringW/KoNLP"/>
 			<item value="/Users/dead_line/DEV/SpringW/Window_Mac"/>
 			<item value="/Users/dead_line/DEV/SpringW/SpringPRJ"/>
 			<item value="/Users/dead_line/DEV/SpringW/LessonSpring"/>
