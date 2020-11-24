@@ -45,6 +45,10 @@ public class WordAnalysisService implements IWordAnalysisService{
 		this.nlp = new Komoran(DEFAULT_MODEL.LIGHT);
 //		this.nlp = new Komoran(DEFAULT_MODEL.FULL);
 		
+		// 데이터사전 로딩하기
+		// 운영체제파일 로딩
+		this.nlp.setUserDic("/Users/dead_line/DEV/myDic/wordDic.txt");
+		
 		log.info("톰켓이 부팅될 때 스프링프레임워크가 자동으로 실행되었고, 스프링 실행될 때 nlp변수에 komoran 객체를 생성하여 저장하였다.");
 	}
 	@Override
@@ -128,9 +132,11 @@ public class WordAnalysisService implements IWordAnalysisService{
 	@Override
 	public Map<String, Integer> doWordAnalysis(String text) throws Exception {
 		
+//		String newContext = newsCollectService.doNaverNewsContents(
+//				"https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=101&oid=001&aid=0011955578");
 		String newContext = newsCollectService.doNaverNewsContents(
-				"https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=101&oid=001&aid=0011955578");
-				
+				"https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=293&aid=0000031933");
+			
 		// 문장의 명사를 추출하기 위한 형태소 분석 실행
 		List<String> rList = this.doWordNouns(newContext);
 		
