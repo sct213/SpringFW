@@ -11,7 +11,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 
 public class CrossScriptingFilter implements Filter {
-	 
+
 	private FilterConfig filterConfig;
 
 	public void init(FilterConfig filterConfig) throws ServletException {
