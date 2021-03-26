@@ -16,4 +16,10 @@ public class MainController {
 		
 		return "/index";
 	}
+	@RequestMapping(value= "DBTest")
+	public String DBTest() {
+		log.info(this.getClass());
+
+		return "/ViewTest/insert_user";
+	}
 }
